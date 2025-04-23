@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Deals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background: #2a9d8f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .deal {
+      background: white;
+      margin: 20px 0;
+      padding: 15px;
+      border-left: 5px solid #e76f51;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .deal h2 {
+      margin: 0 0 10px;
+    }
+    .deal a {
+      color: #264653;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      color: #999;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Daily Deals</h1>
+    <p>Sharing the best free & discounted finds on the web</p>
+  </header>
+
+  <section class="deal">
+    <h2>50% Off Noise Cancelling Headphones</h2>
+    <p>Get these high-quality headphones for half the price.</p>
+    <a href="https://example.com/deal1" target="_blank">Check it out</a>
+  </section>
+
+  <section class="deal">
+    <h2>Free Online Photoshop Alternative</h2>
+    <p>No install needed. Works in your browser.</p>
+    <a href="https://photopea.com" target="_blank">Try Photopea</a>
+  </section>
+
+  <footer>
+    <p>Submit a deal: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+  </footer>
+
+</body>
+</html>
